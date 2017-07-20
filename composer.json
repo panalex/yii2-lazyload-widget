@@ -1,0 +1,22 @@
+{
+    "name": "panalex/yii2-lazyload-widget",
+    "description": "wrapper of https://github.com/verlok/lazyload library",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","lazyload","image","widget"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "panalex",
+            "email": "panalex07@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/vanilla-lazyload": "~8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "panalex\\lazyload\\": ""
+        }
+    }
+}
